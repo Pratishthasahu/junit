@@ -24,4 +24,10 @@ public class Calculator {
 		}
 		return a/b;
 	}
+	public static void main(String args[])
+	{
+		Calculator obj = new Calculator();
+		double res = obj.add(10.0, 10.0);
+		System.out.println("REsult= "+res);
+	}
 }
